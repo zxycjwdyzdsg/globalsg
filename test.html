@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/623c3de206.js" crossorigin="anonymous"></script>
+  <style>
+    *{
+      font-size: 11px;
+    }
+    body {
+      background-color: black;
+      margin: 0; 
+    }
+    
+    footer {
+      margin-top: 40px;
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    #logo{
+        height: 5%;
+        width: 5%;
+        border-radius: 20px;
+    }
+    #menu{
+        z-index: 1000;
+        position: sticky;
+        top:0px;
+    }
+    .jumbotron {
+        margin-bottom: 0;
+    }
+    #text {
+        background-color: lightgray;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px; 
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    .container-separator {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .img-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%; 
+        margin-bottom: 20px;
+    }
+
+    .img-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    .bg-rgba {
+    background-color: rgba(255, 255, 255, 0.7); 
+    }
+    
+    .nav a i{
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse" id="menu">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+        <a href="index.html" class="logo"><img src="images/global-logistic-logo.png" id="logo" alt="logo" title="logo"></a>  
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#"><i class="fa-sharp fa-solid fa-house"></i>Home 主页</a></li>
+        <li><a href="#"><i class="fas fa-id-card-alt"></i>Upload 上传 ID</a></li>
+        <li><a href="#"><i class="fas fa-route"></i>Tracking 查询单号</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" class="title">
+  <div class="jumbotron">
+    <div class="container text-center">
+      <h1>Globallogistics SG</h1>      
+    </div>
+  </div>
+</div>
+
+
+<div class="container container-separator">
+    <div class="row d-flex">
+
+      <div class="col-md-6 p-4 d-flex align-items-stretch text-center" id="text">
+        <h4>公司简介</h4>
+        <p>环球物流国际运输私人有限公司，（以下简称环球物流）是经新加坡工商局注册、批准成立的綜合性的用际物流公司，公司注册号码201400940Z，业务范围主要致力于新加坡至中国，香港，台湾，马来西业，日本，美国，澳大利亚等国家和地区的空运快递及代购服务和中国至新加坡，马来西亚，孟加拉、泰国、越南，印尼，澳大利亚加拿大等国象的空运和海运及代购服务。</p>
+        <p>公司自成立之初一直本着“诚信做人，严谨做事，双贏做生意”的公司理念竭诚为新老套户服务，井且得到了很多老客户的认可和支持，感谢您的支持，让我们一起携手努力！</p>
+        <p>Global Logistics International Transportation Ple Ltd, (hereinalter referred to as Global Logistics) Is a comprehensive international logistics company registered and approved by the Singapare Industry and Commerce Bureau. The company registration number is 201400940Z. The business scope is mainly dedicated to Singapore to China, Hong Kong, Taiwan, Malaysia, Japan, the United Stales, Australia, and other countries and regions. Air express and purchasing services and air and sea freight and purchasing services from China to Singapore, Malaysia, Bangladesh, Thailand, Vietnam, Indonesia, Australia, Canada and other countries.</p>
+        <p>Since the establishment of the company At the beginning, we have been serving new and old custorers wholeheartedly with the company philosophy of being honest, doing things rigorously, and doing business with win-win", and have been recognized and supported by many old custorners. Thank you for your support, let us work together!</p>
+      </div>
+      <div class="col-md-6 d-flex align-items-stretch">
+        <div class="img-container">
+          <img src="images/shipping.jpg" class="img-responsive center-block" alt="Left Image">
+        </div>
+      </div>
+      
+    </div>
+</div>
+
+<div class="container-fluid" class="title">
+  <div class="jumbotron">
+    <div class="container text-center">
+      <h1>公司简介</h1>      
+    </div>
+  </div>
+</div>
+<br><br>
+<div class="container-fluid">
+  <div class="jumbotron bg-rgba">
+    <div class="container text-center text-center" id="text">
+      <a href="index.html" class="logo"><img src="images/global-logistic-logo-without-background.png" style="height: 10%; width: 10%;" alt="logo" title="logo"></a>  
+      <p>环球物流国际运输私人有限公司，（以下简称环球物流）是经新加坡工商局注册、批准成立的綜合性的用际物流公司，公司注册号码201400940Z，业务范围主要致力于新加坡至中国，香港，台湾，马来西业，日本，美国，澳大利亚等国家和地区的空运快递及代购服务和中国至新加坡，马来西亚，孟加拉、泰国、越南，印尼，澳大利亚加拿大等国象的空运和海运及代购服务。</p>
+      <p>公司自成立之初一直本着“诚信做人，严谨做事，双贏做生意”的公司理念竭诚为新老套户服务，井且得到了很多老客户的认可和支持，感谢您的支持，让我们一起携手努力！</p>
+      <p>Global Logistics International Transportation Ple Ltd, (hereinalter referred to as Global Logistics) Is a comprehensive international logistics company registered and approved by the Singapare Industry and Commerce Bureau. The company registration number is 201400940Z. The business scope is mainly dedicated to Singapore to China, Hong Kong, Taiwan, Malaysia, Japan, the United Stales, Australia, and other countries and regions. Air express and purchasing services and air and sea freight and purchasing services from China to Singapore, Malaysia, Bangladesh, Thailand, Vietnam, Indonesia, Australia, Canada and other countries.</p>
+      <p>Since the establishment of the company At the beginning, we have been serving new and old custorers wholeheartedly with the company philosophy of being honest, doing things rigorously, and doing business with win-win", and have been recognized and supported by many old custorners. Thank you for your support, let us work together!</p>     
+    </div>
+  </div>
+</div><br><br>
+
+<div class="container-fluid" class="title">
+  <div class="jumbotron">
+    <div class="container text-center">
+      <h1>What We Do 我们的使命</h1>      
+    </div>
+  </div>
+</div>
+
+<div class="container container-separator">
+    <div class="row d-flex">
+
+      <div class="col-md-6 d-flex align-items-stretch">
+        <div class="img-container">
+          <img src="images/shipping.jpg" class="img-responsive center-block" alt="Left Image">
+        </div>
+      </div>
+      <div class="col-md-6 p-4 d-flex align-items-stretch text-center" id="text">
+        <h4>公司简介</h4>
+        <p>环球物流国际运输私人有限公司，（以下简称环球物流）是经新加坡工商局注册、批准成立的綜合性的用际物流公司，公司注册号码201400940Z，业务范围主要致力于新加坡至中国，香港，台湾，马来西业，日本，美国，澳大利亚等国家和地区的空运快递及代购服务和中国至新加坡，马来西亚，孟加拉、泰国、越南，印尼，澳大利亚加拿大等国象的空运和海运及代购服务。</p>
+        <p>公司自成立之初一直本着“诚信做人，严谨做事，双贏做生意”的公司理念竭诚为新老套户服务，井且得到了很多老客户的认可和支持，感谢您的支持，让我们一起携手努力！</p>
+        <p>Global Logistics International Transportation Ple Ltd, (hereinalter referred to as Global Logistics) Is a comprehensive international logistics company registered and approved by the Singapare Industry and Commerce Bureau. The company registration number is 201400940Z. The business scope is mainly dedicated to Singapore to China, Hong Kong, Taiwan, Malaysia, Japan, the United Stales, Australia, and other countries and regions. Air express and purchasing services and air and sea freight and purchasing services from China to Singapore, Malaysia, Bangladesh, Thailand, Vietnam, Indonesia, Australia, Canada and other countries.</p>
+        <p>Since the establishment of the company At the beginning, we have been serving new and old custorers wholeheartedly with the company philosophy of being honest, doing things rigorously, and doing business with win-win", and have been recognized and supported by many old custorners. Thank you for your support, let us work together!</p>
+      </div>
+    </div>
+</div>
+
+<div class="container-fluid" class="title">
+  <div class="jumbotron">
+    <div class="container text-center">
+      <h1>Contact Us 联系我们/</h1>      
+    </div>
+  </div>
+</div>
+
+
+<div class="container container-separator">
+    <div class="row d-flex">
+      <div class="col-md-6 p-4 d-flex align-items-stretch text-center" id="text">
+        <h3>Contact Us</h3>
+        <p>People's Park Centre</p>
+        <p>101 Upper Cross Streel #06-15A, Singapore 058357</p>
+        <p>电话 : 84817066</p>
+        <h4>Opening Hours</h4>
+        <p>Mon - Fri: 9am - 6pm</p>
+        <p>Sat: 11:30am - б</p>
+        <p>Sun: Closed</p>
+        <p>工作日9am-6pm</p>
+        <p>星期六11:30am-6pm</p>
+        <p>星期天休息</p>
+      </div>
+
+      <div class="col-md-6 d-flex align-items-stretch">
+        <div class="img-container">
+          <img src="images/Contact-Us.jpg" style="height: 130%;"img-responsive center-block alt="Left Image">
+        </div>
+      </div>
+
+      
+    </div>
+</div>
+
+
+<footer class="container-fluid text-center">
+  <div class="padding">
+    <h4>Globallogistics PTE LTD</h4>
+    <p>+65 8481 7066</p>
+  </div>
+  <div class="padding">
+    <p>Copyright @2022 by GLOBAL</p>
+    <p>LOGISTICS INDUSTRIAL PTE LTD</p>
+  </div>
+</footer>
+
+<script type="text/javascript">
+    $(function () {
+      setTimeout(function () {
+        $(".loaderbg").hide();
+      }, 1000);
+    })
+
+    $(function () {
+      $(window).scroll(function () {
+        if ($(this).scrollTop() != 0) {
+          $("#toTop").fadeIn();
+        } else {
+          $("#toTop").fadeOut();
+        }
+      });
+      $("body").append("<div id=\"toTop\" style=\"border:1px solid #444;background:#333;color:#fff;text-align:center;padding:10px 13px 7px 13px;position:fixed;bottom:10px;right:10px;cursor:pointer;display:none;font-family:verdana;font-size:22px;\">^</div>");
+      $("#toTop").click(function () {
+        $("body,html").animate({scrollTop: 0}, 800);
+      });
+    })
+</script>
+</body>
+</html>

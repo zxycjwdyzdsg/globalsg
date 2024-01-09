@@ -1,0 +1,86 @@
+*{
+    font-size: 11px;
+    
+  }
+  body {
+    background-color: black;
+    margin: 0; 
+    position: relative;
+    min-height: 100vh; 
+  }
+  
+  footer {
+    margin-top: 50px;
+    background-color: #f2f2f2;
+    padding: 50px; 
+   
+  }
+  #logo{
+      height: 5%;
+      width: 5%;
+      border-radius: 20px;
+  }
+  #menu{
+      z-index: 1000;
+      position: sticky;
+      top:0px;
+  }
+  .jumbotron {
+      margin-bottom: 0;
+  }
+  #text {
+      background-color: lightgray;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 20px; 
+      height: 100%;
+      margin-bottom: 20px;
+  }
+  .container-separator {
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  .img-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%; 
+      margin-bottom: 20px;
+  }
+
+  .img-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 20px;
+  }
+  .bg-rgba {
+  background-color: rgba(255, 255, 255, 0.7); 
+  }
+  
+  .nav a i{
+    margin-right: 10px;
+  }
+  
+  form {
+    color: white;
+    padding:50px;
+    background-color: rgba(255, 255, 255, 0.3);
+    }
+  .container {
+        margin-top: 50px; /* 将表单向下移动，使其居中 */
+    }
+  .submit-container {
+        text-align: right;
+        margin-top: 10px;
+    }
+  .ct{
+    display: flex;
+    justify-content: center;
+    
+  }
+  #name,#pass,#phone{
+    width: 120%;
+  }

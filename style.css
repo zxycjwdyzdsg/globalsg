@@ -15,12 +15,12 @@
     padding: 50px; 
    
   }
-  #logo{
-      height: 5%;
-      width: 5%;
-      border-radius: 20px;
+  
+  .navbar-header{
+    height:100%
   }
   #menu{
+      height: 100%;
       z-index: 1000;
       position: sticky;
       top:0px;
@@ -42,13 +42,7 @@
       margin-top: 20px;
       margin-bottom: 20px;
   }
-  .img-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100%; 
-      margin-bottom: 20px;
-  }
+  
 
   .img-container img {
       width: 100%;
@@ -73,14 +67,33 @@
         margin-top: 50px; /* 将表单向下移动，使其居中 */
     }
   .submit-container {
-        text-align: right;
-        margin-top: 10px;
+    display: flex;
+    align-self: flex-end;
+      margin-top: 10px;
     }
   .ct{
     display: flex;
     justify-content: center;
-    
   }
   #name,#pass,#phone{
-    width: 120%;
+    width: 100%;
   }
+.btu{
+  display: inline-block;
+  color:#fff;
+  background: #2f3640;
+  border-radius: 5px;
+  cursor: pointer;
+  padding:.8rem 3rem;
+  transition-duration: 1s;
+}
+
+.btu:hover{
+  background: rgb(136, 138, 129);
+}
+input::-webkit-input-placeholder {
+  /* placeholder颜色 */
+  color: #aab2bd;
+  /* placeholder字体大小 */
+  font-size: px;
+}

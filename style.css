@@ -1,95 +1,109 @@
-*{
-    font-size: 11px;
-    
-  }
-  body {
-    background-color: black;
-    margin: 0; 
-    position: relative;
-    min-height: 100vh; 
-  }
-  
-  footer {
-    margin-top: 50px;
-    background-color: #f2f2f2;
-    padding: 50px; 
-   
-  }
-  
-  .navbar-header{
-    height:100%
-  }
-  #menu{
-      height: 100%;
-      z-index: 1000;
-      position: sticky;
-      top:0px;
-  }
-  .jumbotron {
-      margin-bottom: 0;
-  }
-  #text {
-      background-color: lightgray;
-      border-radius: 20px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      padding: 20px; 
-      height: 100%;
-      margin-bottom: 20px;
-  }
-  .container-separator {
-      margin-top: 20px;
-      margin-bottom: 20px;
-  }
-  
+* {
+  font-size: 11px;
+}
 
-  .img-container img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      border-radius: 20px;
-  }
-  .bg-rgba {
-  background-color: rgba(255, 255, 255, 0.7); 
-  }
-  
-  .nav a i{
-    margin-right: 10px;
-  }
-  
-  form {
-    color: white;
-    padding:50px;
-    background-color: rgba(255, 255, 255, 0.3);
-    }
+body {
+  background: #F3F7F9; /* 保留原有的浅灰色，现代感 */
+  margin: 0; 
+  position: relative;
+  min-height: 100vh; 
+}
 
-  .submit-container {
-    display: flex;
-    align-self: flex-end;
-      margin-top: 10px;
-    }
-  .ct{
-    display: flex;
-    justify-content: center;
-  }
-  #name,#pass,#phone{
-    width: 100%;
-  }
-.btu{
+footer {
+  margin-top: 50px;
+  background-color: #E2E6EA; /* 更浅的灰色，与页面主体相协调 */
+  padding: 50px; 
+}
+
+#menu {
+  height: 100%;
+  background-color: #FFFFFF; /* 纯白色背景 */
+  z-index: 1000;
+  position: sticky;
+  top: 0px;
+  box-shadow: 10px 2px 5px black;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+  background-color: #FAFAFA; /* 非常浅的灰，几乎白色 */
+}
+
+#text {
+  background-color: #FFFFFF; /* 纯白色背景，以保持整体设计的一致性 */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px; 
+  height: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05); /* 为文本框添加轻微阴影 */
+}
+
+.container-separator {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.bg-rgba {
+  background-color: rgba(255, 255, 255, 0.8); /* 增加透明度以提高可读性 */
+}
+
+.nav a i {
+  margin-right: 10px;
+}
+
+form {
+  color: #333; /* 暗色字体以提高可读性 */
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.9); /* 增加透明度以提高可读性 */
+}
+
+.submit-container {
+  display: flex;
+  align-self: flex-end;
+  margin-top: 10px;
+}
+
+.ct {
+  display: flex;
+  justify-content: center;
+}
+
+#name, #pass, #phone {
+  width: 100%;
+}
+
+.btu {
   display: inline-block;
-  color:#fff;
-  background: #2f3640;
+  color: #333; /* 暗色字体以提高可读性 */
+  background: #EAEFF2; /* 浅灰色按钮 */
   border-radius: 5px;
   cursor: pointer;
-  padding:.8rem 3rem;
+  padding: .8rem 3rem;
   transition-duration: 1s;
 }
 
-.btu:hover{
-  background: rgb(136, 138, 129);
+.btu:hover {
+  background: #D1D7DC; /* 悬停时稍微深一点的灰色 */
 }
+
 input::-webkit-input-placeholder {
-  color: #aab2bd;
+  color: #8A8A8A; /* 深灰色占位符字体 */
   font-size: 9px;
 }
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: rgb(60, 57, 57); /* 替换#desiredHoverColor为你想要的颜色代码 */
+}
+
+  

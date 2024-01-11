@@ -116,7 +116,7 @@ input::-webkit-input-placeholder {
   color:gray;
 }
 .navbar-toggle {
-  background-color: black; /* 这里用你希望的颜色代替 */
+  background-color: black;
 }
 .navbar-toggle:hover,
 .navbar-toggle:focus{

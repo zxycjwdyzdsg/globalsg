@@ -8,6 +8,8 @@ body {
   min-height: 100vh; 
 }
 
+
+
 footer {
   margin-top: 50px;
   background-color: #E2E6EA;
@@ -105,4 +107,18 @@ input::-webkit-input-placeholder {
     color: rgb(60, 57, 57); 
 }
 
-  
+.navbar-inverse .navbar-brand{
+  color:black;
+  font-size: 200%;
+  float:center; 
+}
+.navbar-inverse .navbar-brand:hover{
+  color:gray;
+}
+.navbar-toggle {
+  background-color: black; /* 这里用你希望的颜色代替 */
+}
+.navbar-toggle:hover,
+.navbar-toggle:focus{
+    background-color: gray;
+}
